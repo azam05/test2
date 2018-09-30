@@ -4902,7 +4902,7 @@
 </entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="ChangeMessageFilter" entityPK="-3841420229648547323" parentPK="-8717466254891065473">
 	<fval name="abortProcessingOnLogError"><value>0</value></fval>
-	<fval name="body"><value>{&#xD;&#xA;&quot;Message&quot;:&quot;Automatic deployment phase 2 + added git + jenkins v4 &quot;&#xD;&#xA;}</value></fval>
+	<fval name="body"><value>{&#xD;&#xA;&quot;Message&quot;:&quot;Automatic deployment phase 2 + added git + jenkins v5&quot;&#xD;&#xA;}</value></fval>
 	<fval name="category"><value contentType="reference">5120443855164264209</value></fval>
 	<fval name="logFailure"><value>Failed in setting the message</value></fval>
 	<fval name="logFatal"><value>Error in setting the message. Error: ${circuit.exception}</value></fval>
