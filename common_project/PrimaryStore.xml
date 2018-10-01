@@ -7318,6 +7318,9 @@
 	</fval>
 	<fval name="mimeType"><value>text/plain</value></fval>
 </entity>
+<entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="CircuitContainer" entityPK="-6581155094494189103" parentPK="0">
+	<fval name="name"><value>Authorization</value></fval>
+</entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="LogManager" entityPK="-6441018217762406040" parentPK="0">
 	<fval name="name"><value>Logging Configuration</value></fval>
 </entity>
@@ -10329,6 +10332,15 @@
 	<fval name="name"><value>solpacks</value></fval>
 	<fval name="path"><value>solutions</value></fval>
 	<fval name="pattern"><value>*.spar</value></fval>
+</entity>
+<entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="CircuitContainer" entityPK="1577181608052076988" parentPK="0">
+	<fval name="name"><value>Authentication</value></fval>
+</entity>
+<entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="FilterCircuit" entityPK="-7578215661820019202" parentPK="1577181608052076988">
+	<fval name="category"><value contentType="reference">-93273547845105973</value></fval>
+	<fval name="description"><value></value></fval>
+	<fval name="logMask"><value>3</value></fval>
+	<fval name="name"><value>Authenticate User</value></fval>
 </entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="JDBCDriverSet" entityPK="1684210404783610829" parentPK="0">
 	<fval name="name"><value>JDBC Drivers</value></fval>
